@@ -11,6 +11,7 @@ client = MongoClient("mongodb://instabiker1:%40udacity@ds039135.mongolab.com:391
 #client = MongoClient()
 db = client.instabike_credentials
 cust = db.customers
+veh = db.vehicle
 root_url = 'localhost:5000'
 
 def verify(u_name,passw):
